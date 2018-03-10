@@ -15,5 +15,6 @@ name = scrapy.Field()
 设置user-agent，伪装成浏览器，抵御基本的反爬
 ROBOTSTXT_OBEY = False # 关闭反爬robbit协议
 CONCURRENT_REQUESTS = 400  并发连接请求改为400，同时对400个连接进行请求
-5.运行爬虫命令：scrapy crawl tencent
+5.运行爬虫
+scrapy crawl tencent
 
